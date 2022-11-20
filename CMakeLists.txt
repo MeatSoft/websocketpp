@@ -24,7 +24,7 @@ endif ()
 ############ Project name and version
 set (WEBSOCKETPP_MAJOR_VERSION 0)
 set (WEBSOCKETPP_MINOR_VERSION 8)
-set (WEBSOCKETPP_PATCH_VERSION 2)
+set (WEBSOCKETPP_PATCH_VERSION 3)
 set (WEBSOCKETPP_VERSION ${WEBSOCKETPP_MAJOR_VERSION}.${WEBSOCKETPP_MINOR_VERSION}.${WEBSOCKETPP_PATCH_VERSION})
 
 if(POLICY CMP0048)
@@ -73,8 +73,8 @@ include (CMakeHelpers)
 
 # Override from command line "CMake -D<OPTION>=TRUE/FALSE/0/1/ON/OFF"
 option (ENABLE_CPP11 "Build websocketpp with CPP11 features enabled." TRUE)
-option (BUILD_EXAMPLES "Build websocketpp examples." FALSE)
-option (BUILD_TESTS "Build websocketpp tests." FALSE)
+option (BUILD_EXAMPLES "Build websocketpp examples." TRUE)
+option (BUILD_TESTS "Build websocketpp tests." TRUE)
 
 if (BUILD_TESTS OR BUILD_EXAMPLES)
 

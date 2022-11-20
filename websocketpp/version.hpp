@@ -54,7 +54,7 @@ static int const patch_version = 2;
 static char const prerelease_flag[] = "";
 
 /// Default user agent string
-static char const user_agent[] = "WebSocket++/0.8.2";
+static char const user_agent[] = "WebSocket++/0.8.3";
 
 } // namespace websocketpp
 

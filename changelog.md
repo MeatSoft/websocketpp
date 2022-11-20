@@ -1,5 +1,8 @@
 HEAD
 
+0.8.3 - 2022-11-20
+- Support C++20
+
 0.8.2 - 2020-04-19
 - Examples: Update print_client_tls example to remove use of deprecated
   OpenSSL functions.
